@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.ghostware" name="Ghostware Repository" version="0.0.1" provider-name="Dataghost">
+	<extension point="xbmc.addon.repository" name="Ghostware Repository">
+		<dir>
+			<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
+			<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/dataghost2014/repository.ghostware/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/dataghost2014/repository.ghostware/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/dataghost2014/repository.ghostware/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Ghostware community repository by Dataghost</summary>
+		<description lang="en">Ghostware community repository by Dataghost</description>
+		<genre>devtools,gaming,howto,music,tech,columbian,usa,vietnamese</genre>
+	</extension>
+</addon>
