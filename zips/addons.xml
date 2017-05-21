@@ -15,6 +15,38 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.GhostTube"
+	name="GhostTube Support"
+	version="0.0.1"
+	provider-name="Dataghost">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Welcome to GhostTube! Ghostware Youtube video Add-on</summary>
+    <description lang="en">Hello Everyone! This is an add-on dedicated to help and support for Ghostware products such as gaming on demand, builds and simple how to guides. Welcome to GhostTube!</description>
+    <platform>all</platform>
+    <forum>http://ghostware.org/forums</forum>
+    <source>https://github.com/dataghost2014/repository.ghostware/plugin.video.GhostTube</source>
+    <website>http://ghostware.org</website>
+    <email>robertjoseph1976@hotmail.com</email>
+    <license>GPL v2.0</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+        <screenshot>resources/screenshot-01.jpg</screenshot>
+        <screenshot>resources/screenshot-02.jpg</screenshot>
+        <screenshot>resources/screenshot-03.jpg</screenshot>
+    </assets>
+    <news>Inital release of GhostTube</news>
+  </extension>
+</addon>
+
 <addon id="plugin.video.xtream-codes" name="Xtream-Codes IPTV" version="2.0" provider-name="MikkM">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
